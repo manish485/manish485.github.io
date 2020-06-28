@@ -1,0 +1,113 @@
+/* Text color */
+.primary-text{
+    color: #28a745;
+}
+
+text-secondary{
+    color: blue;
+}
+
+.btn {
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px 20px;
+    color:#fff;
+    background:#28a745 ;
+    border: none;
+    border-radius: 5px;
+}
+
+
+/* Styling the flex-item class */
+.flex-items{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    height: 100%;
+}
+
+/* Styling the child div of flex item class */
+.flex-items > div{
+    padding:20px;
+
+}
+
+
+
+/* Adding style for Flex item */
+.flex-item .row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    /* flex: 1; */
+
+}
+
+
+.flex-item .column{
+    display: flex;
+    flex-direction: column;
+    flex-basis:100%;
+    flex: 1;
+}
+
+.flex-item .column .column1{
+    display: flex;
+    height: 100%;
+}
+
+
+
+
+.flex-item .column .column2{
+    
+    height: 100%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.flex-item .column .bg-info{
+
+     background: green;
+     color: white;
+     /* margin-top: 100px; */
+     text-align: center;
+     justify-content: center;
+     /* width; */}
+
+
+
+/* Styling the Img tag for removeing the extra space when it's sinks */
+
+.flex-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+/* Chnaging the Blog co-ordinate */
+
+.flex-item  .row {
+    flex-direction: row-reverse;
+}
+ .headling{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: sienna;}
+
+.blog-bg{
+width: 100%;
+height: 60vh;
+background: url("../Images/blog.jpg");
+
+    }
+
+.bg-light{
+    background: rgb(120, 230, 240);
+}
